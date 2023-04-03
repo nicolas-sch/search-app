@@ -1,0 +1,43 @@
+// Global Styles
+*,
+ul,
+ol,
+div,
+span,
+section,
+article,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: sans-serif;
+  // color: black;
+}
+
+// Global imports
+@import "./Global/NavbarDropDown";
+
+// Home Page Imports
+@import "./HomePage/Navbar";
+@import "./HomePage/HomePageHero";
+@import "./HomePage/VoiceSearch";
+@import "./HomePage/VoiceSearchError";
+@import "./HomePage/HomePage";
+
+// Search Page Imports
+@import "./SearchPage/SearchPage";
+@import "./SearchPage/SearchPageNavbar";
+@import "./SearchPage/AllResponse";
+@import "./SearchPage/ImageResponse";
+@import "./SearchPage/VideoResponse";
+@import "./SearchPage/NewsResponse";
+@import "./SearchPage/BooksResponse";
